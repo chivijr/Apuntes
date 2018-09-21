@@ -1,0 +1,4 @@
+ - Cambiar la extensión de todos los ficheros de un directorio:
+for f in *.JPG; do   mv "$f" "${f%.JPG}.jpg"; done
+
+-------------------------------------------------------------------------------------------------------------------
