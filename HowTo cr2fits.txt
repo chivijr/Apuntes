@@ -1,0 +1,13 @@
+Para crear un virtualenv, llamando py3env, con python3
+virtualenv -p /usr/bin/python3 py3env
+----------------------------------------
+Activar el entorno virtual que hemos creado antes:
+source py3env/bin/activate
+----------------------------------------
+Para salir del entorno virtual que tenemos activo:
+deactivate
+----------------------------------------
+Dentro del entorno virtual (tiene que estar activado) se pueden instalar paquetes con pip solo para ese entorno:
+pip install astropy
+----------------------------------------
+----------------------------------------
