@@ -1,0 +1,9 @@
+ffmpeg -f image2 -start_number 442 -i _MG_0%3d.jpg video1.avi
+ffmpeg -f image2 -start_number 442 -i _MG_0%3d.jpg out1.gif
+
+ffmpeg -f image2 -start_number 501 -i _MG_0%3d.jpg video2.avi
+ffmpeg -f image2 -start_number 501 -i _MG_0%3d.jpg out2.gif
+
+ffmpeg -f image2 -framerate 9 -start_number 442 -i _MG_0%3d.jpg -vf scale=531x299 out.gif
+ffmpeg -r 15 -start_number 4007 -i _MG_%4d.jpg -s 1280x720 -vcodec libx264 timelapseTeide.mp4
+ffmpeg -r 15 -start_number 1846 -i _MG_%4d.jpg -s 1280x720 -vcodec libx264 tileLapseFlamingo1.mp4
