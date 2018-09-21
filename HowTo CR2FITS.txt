@@ -1,0 +1,6 @@
+cd /home/chivijr/git/cr2fits
+source py3env activate
+python3 ./cr2fits.py foto.cr2 0
+python3 ./cr2fits.py foto.cr2 1
+python3 ./cr2fits.py foto.cr2 2
+python3 ./cr2fits.py foto.cr2 3
