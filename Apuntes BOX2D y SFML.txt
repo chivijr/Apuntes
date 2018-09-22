@@ -1,0 +1,4 @@
+Apuntes BOX2D y SFML
+1 - Box2D bodies are centered to the middle of the shape.
+2 - SFML shapes are centered to (0, 0) by default.
+3 - When I create a body using SetAsBox(width, height) you must know that the final body will have the size of (width*2, height*2).
